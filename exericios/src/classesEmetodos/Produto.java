@@ -6,6 +6,7 @@ public class Produto {
     double desconto;
     static double tomate = 545;
 
+//  Construtores
     Produto(){
     }
     Produto(String nomeInicial){
@@ -17,8 +18,7 @@ public class Produto {
         preco = precoInicial;
     }
 
-
-
+    //  Métodos
     public double precoComDesconto(){
         return preco - (preco * desconto);
     }

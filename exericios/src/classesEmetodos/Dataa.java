@@ -12,10 +12,18 @@ public class Dataa {
     }
 
     Dataa(int diaInicial, int mesInical, int anoInical){
-        dia = diaInicial;
-        mes = mesInical;
-        ano = anoInical;
+        this.dia = diaInicial;
+        this.mes = mesInical;
+        this.ano = anoInical;
     }
+
+    /*This referencia o objeto que esta sendo criado naquela instancia*/
+
+    /*Método estatico não pode acessar o this
+    *
+    * static void teste(){
+    *   this.dia}
+    * */
 
     public String formataData(){
         return dia+"/"+mes+"/"+ano;
