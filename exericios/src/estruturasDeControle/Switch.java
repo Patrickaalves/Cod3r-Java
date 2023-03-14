@@ -1,8 +1,13 @@
 package estruturasDeControle;
 
+import java.util.Date;
+
 public class Switch {
     public static void main(String[] args) {
         String faixa = "marrom";
+        Date teste = new Date();
+
+        System.out.println(teste);
 
         switch (faixa){
             case "preta":
