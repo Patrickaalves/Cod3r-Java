@@ -33,4 +33,10 @@ public class Arrray {
         }
 
     }
+
+    public static class Usuario {
+        String nome;
+        String email;
+
+    }
 }
