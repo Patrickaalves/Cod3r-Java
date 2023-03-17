@@ -24,4 +24,9 @@ public class Sorvete extends Comida{
 
 
     }
+
+    @Override
+    public void temperatura() {
+
+    }
 }
