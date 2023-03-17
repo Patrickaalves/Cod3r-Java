@@ -1,6 +1,6 @@
 package orientacaoObjetos.heranca.desafio;
 
-public class Ferrari extends Carro{
+public class Ferrari extends Carro implements Esportivo{
     public Ferrari(int velocidadeMaxima) {
         super(velocidadeMaxima);
     }
@@ -20,5 +20,15 @@ public class Ferrari extends Carro{
     @Override
     boolean frear() {
         return super.frear();
+    }
+
+    @Override
+    public void ligarTurbo() {
+
+    }
+
+    @Override
+    public void desligarTurbo() {
+
     }
 }
