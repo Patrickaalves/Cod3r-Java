@@ -1,9 +1,9 @@
 package orientacaoObjetos.polimorfismo;
 
-public class Pessoa {
+public class Comida {
     private double peso;
 
-    public Pessoa(double peso) {
+    public Comida(double peso) {
         setPeso(peso);
     }
 
@@ -16,9 +16,4 @@ public class Pessoa {
             this.peso = peso;
         }
     }
-
-    public void comer(Comida comida){
-        this.peso += comida.getPeso();
-    }
-
 }
