@@ -10,7 +10,5 @@ public class PessoaTeste {
         p1.setIdade(-30);
 
         System.out.println(p1.getIdade());
-
-
     }
 }
