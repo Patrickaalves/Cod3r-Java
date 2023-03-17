@@ -9,5 +9,9 @@ public class CalculoTeste2 {
         System.out.println("Soma: "+calc.executar(5,5));
 
         calc = (x, y) -> x * y;
+
+        /*Ao inves de criar classes eu uso minhsa funções lanbdas*/
+
+
     }
 }
