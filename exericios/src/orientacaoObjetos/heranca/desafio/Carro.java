@@ -1,11 +1,22 @@
 package orientacaoObjetos.heranca.desafio;
 
 public class Carro {
+
+    final int VELOCIDADE_MAXIMA;
     int velocidade;
 
+    public Carro(int velocidadeMaxima) {
+        this.VELOCIDADE_MAXIMA = velocidadeMaxima;
+    }
+
     boolean acelerar(){
-        this.velocidade += 10;
-        return true;
+        if (this.velocidade + 10 > this.VELOCIDADE_MAXIMA){
+            System.out.println("Não é permitido acelearar pois esta na velocidade maxima");
+            return false;
+        }else {
+            this.velocidade += 10;
+            return true;
+        }
     }
 
     boolean frear(){

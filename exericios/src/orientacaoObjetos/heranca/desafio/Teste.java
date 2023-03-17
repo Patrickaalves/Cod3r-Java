@@ -2,9 +2,9 @@ package orientacaoObjetos.heranca.desafio;
 
 public class Teste {
     public static void main(String[] args) {
-        Carro generico = new Carro();
+        Carro generico = new Carro(30);
 
-        Ferrari ferrari = new Ferrari();
+        Ferrari ferrari = new Ferrari(15);
 
         generico.acelerar();
         generico.acelerar();
