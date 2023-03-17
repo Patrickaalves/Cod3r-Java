@@ -1,6 +1,6 @@
 package orientacaoObjetos.polimorfismo;
 
-public class Comida {
+public abstract class Comida {
     private double peso;
 
     public Comida(double peso) {
@@ -16,4 +16,6 @@ public class Comida {
             this.peso = peso;
         }
     }
+
+    public abstract void temperatura();
 }

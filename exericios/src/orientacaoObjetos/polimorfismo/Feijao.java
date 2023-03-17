@@ -5,4 +5,9 @@ public class Feijao extends Comida{
         super(peso);
     }
 
+    @Override
+    public void temperatura() {
+
+    }
+
 }
